@@ -1,0 +1,81 @@
+﻿@model ClientMVC.Models.Product
+
+@{
+    ViewBag.Title = "Product Detail";
+}
+
+<h2>Product Detail</h2>
+<div class="row">
+    <div class="col-md-4">
+        <div class="form-group">
+            <label for="usr">@Html.DisplayNameFor(model => model.Name):</label>
+            <p>@Html.DisplayFor(model => model.Name)</p>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="form-group">
+            <label for="usr">@Html.DisplayNameFor(model => model.ProductNumber):</label>
+            <p>@Html.DisplayFor(model => model.ProductNumber)</p>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="form-group">
+            <label for="usr">@Html.DisplayNameFor(model => model.Color):</label>
+            <p>@Html.DisplayFor(model => model.Color)</p>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <div class="form-group">
+            <label for="usr">@Html.DisplayNameFor(model => model.StandardCost):</label>
+            <p>@Html.DisplayFor(model => model.StandardCost)</p>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="form-group">
+            <label for="usr">@Html.DisplayNameFor(model => model.ListPrice):</label>
+            <p>@Html.DisplayFor(model => model.ListPrice)</p>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="form-group">
+            <label for="usr">@Html.DisplayNameFor(model => model.Size):</label>
+            <p>@Html.DisplayFor(model => model.Size)</p>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <div class="form-group">
+            <label for="usr">@Html.DisplayNameFor(model => model.Weight):</label>
+            <p>@Html.DisplayFor(model => model.StandardCost)</p>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="form-group">
+            <label for="usr">@Html.DisplayNameFor(model => model.SellStartDate):</label>
+            <p>@Html.DisplayFor(model => model.SellStartDate)</p>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="form-group">
+            <label for="usr">@Html.DisplayNameFor(model => model.SellEndDate):</label>
+            <p>@Html.DisplayFor(model => model.SellEndDate)</p>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <div class="form-group">
+            <label for="usr">@Html.DisplayNameFor(model => model.DiscontinuedDate):</label>
+            <p>@Html.DisplayFor(model => model.DiscontinuedDate)</p>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="form-group">
+            <label for="usr">@Html.DisplayNameFor(model => model.ModifiedDate):</label>
+            <p>@Html.DisplayFor(model => model.ModifiedDate)</p>
+        </div>
+    </div>
+</div>
